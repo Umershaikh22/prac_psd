@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+body{
+    background-color: black;
+}
+/* header start */
+
+
+.header{
+    height: 125px;
+}
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 37px;
+}
+
+
+.nav-bar ul li a{
+text-decoration: none;
+color:white;
+font-size: 1rem;
+}
+.nav-bar ul li a:hover{
+    color: #FFD700;
+    transition: 0.5s ease-in-out;
+}
+
+.logo img{
+    background: rgb(0,0,0);
+    background: linear-gradient(318deg, rgba(0,0,0,1) 77%, rgba(235,232,232,1) 100%);
+    width: 250px;
+    border-radius: 67px;
+    
+}
+.sign{
+    margin-top: 12px;
+}
+
+.sign a{
+    background-color:#000000;
+    color: white ;
+    width: 102px;
+    height: 47px;
+    padding: 7px;
+    font-size: 20px;
+    border: 1px solid rgb(84, 84, 84);
+    text-decoration: none !important;
+    float: inline-end;
+    text-align: center;
+    margin-left:10px ;
+    border-radius: 30px;
+}
+
+#gg {
+    background: rgb(43,40,49);
+    background: linear-gradient(90deg, rgba(43,40,49,1) 0%, rgba(235,232,232,1) 2%, rgba(142,144,180,1) 98%);
+    color: #000000;
+}
+.sign a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+/* header end */
+
+/* BANNER START */
+
+.section{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.para h1{
+    text-align: center;
+    color: #ffffff;
+}
+.para h3{
+    text-align: center;
+    color: #ffffff;
+}
+.mobile {
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: transparent;
+}
+
+.mobile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/mbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.mobile img {
+    height: auto;
+    max-height: 700px;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    background: none;
+    box-shadow: none;
+    border: none;
+    display: block;
+}
+/* BANNER END */
+
+/* cards start */
+.cards{
+    margin-top: 130px;
+    height: 389px;
+    }
+
+    .card{
+        align-items: center;
+        display: flex;
+        background-color: black;
+        width: 250px;
+        height: 470px;
+        flex-direction: column;
+        text-align: center;   
+        border-radius: 20px;
+        border: 1px solid rgb(42, 42, 42);
+
+    }
+    
+    .heading h4{
+        color: rgb(211, 255, 255);
+        padding-top: 10px;
+        margin: 0;
+        padding-right: 135px;
+    }
+
+    #c2{
+        padding-left: 0px;
+    }
+    #c3{
+        margin-left: -45px;
+    }
+    .sub_heading p{
+        color: gray;
+        padding-bottom:10px ;
+        padding-right: 90px;
+        font-size: 18px;
+    }
+    #cs2{
+        margin-left: 5px;
+    }
+    #cs3{
+        margin-left: 4px;
+    }
+    
+    .price h1{
+        color: white;
+    }
+    
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+
+    .renewal p{
+        padding: 10px;
+        margin: 0px;
+        color: gray;
+        font-size: 17px;
+        
+    }
+
+    hr{
+        background-color: rgba(128, 128, 128, 0.397);
+    }
+
+
+    /* CARD 1 */
+    .features1 ul li:nth-child(1){
+        list-style: none;
+        text-align: left;
+        color: white;
+    }
+    .features1 ul li{
+        list-style: none;
+        text-align: left;
+        color: gray;
+    }
+
+    /* CARD 2 */
+    .features2 ul li:nth-child(1){
+        list-style: none;
+        text-align: left;
+        color: white;
+    }
+    .features2 ul li:nth-child(2){
+        list-style: none;
+        text-align: left;
+        color: white;
+    }
+    .features2 ul li{
+        list-style: none;
+        text-align: left;
+        color: gray;
+    }
+    /* CARD 3 */
+    .features3 ul li{
+        list-style: none;
+        text-align: left;
+        color: white;
+    }
+
+    .card:hover{
+        box-shadow: 1px 5px 20px #E6DDFE;
+        transition: all 0.5s;
+        transform: scale(1.1);
+    }
+    button:hover{
+        transition: 0.5s ease-in-out;
+        background-color: #E6DDFE;
+        color: #000000;
+    }
+/* cards end */
+
+/* footer start */
+.cbg img{
+    width: 100%;
+}
